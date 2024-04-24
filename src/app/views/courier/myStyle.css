@@ -1,0 +1,142 @@
+.testimonial-wrapper {
+  text-align: center;
+  max-width: 950px;
+  margin: 0 auto;
+  border: 1px solid #e6e6e6;
+  padding: 40px 25px;
+  margin-top: 50px;
+}
+
+.this_class table,
+.this_class th,
+.this_class td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 16.66%;
+}
+
+.this_class table {
+  width: 100%;
+}
+
+.this_class th,
+.this_class td {
+  padding-left: 10px;
+}
+
+.this_class table {
+  page-break-inside: avoid;
+}
+.this_class tr {
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+.this_class thead {
+  display: table-header-group;
+}
+.this_class tfoot {
+  display: table-footer-group;
+}
+
+.tracking table {
+  width: 100% !important;
+}
+
+.tracking table,
+.tracking th,
+.tracking td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 14.28%;
+}
+
+
+
+.this_class_5 table,
+.this_class_5 th,
+.this_class_5 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size:14px;
+}
+.this_class_5 p {
+  font-size:14px;
+}
+
+.this_class_5 table {
+  width: 100%;
+}
+
+.this_class_5 th,
+.this_class_5 td {
+  padding-left: 6px;
+}
+
+.this_class_5 table {
+  page-break-inside: avoid;
+}
+.this_class_5 tr {
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+.this_class_5 thead {
+  display: table-header-group;
+}
+.this_class_5 tfoot {
+  display: table-footer-group;
+}
+
+
+.this_class_4 table,
+.this_class_4 th,
+.this_class_4 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size:10px;
+}
+.this_class_4 p {
+  font-size:10px;
+}
+
+.this_class_4 table {
+  width: 100%;
+}
+
+.this_class_4 th,
+.this_class_4 td {
+  padding-left: 6px;
+}
+
+.this_class_4 table {
+  page-break-inside: avoid;
+}
+.this_class_4 tr {
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+.this_class_4 thead {
+  display: table-header-group;
+}
+.this_class_4 tfoot {
+  display: table-footer-group;
+}
+
+
+
+.this_class_sm table,
+.this_class_sm th,
+.this_class_sm td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-left: 4px;
+}
+
+.this_class_sm table {
+  width: 100%;
+}
+
+
+
+@media print {
+  .dnone {  display: none;}
+}

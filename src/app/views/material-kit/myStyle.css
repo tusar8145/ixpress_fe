@@ -1,0 +1,28 @@
+.testimonial-wrapper {
+  text-align: center;
+  max-width: 950px;
+  margin: 0 auto;
+  border: 1px solid #e6e6e6;
+  padding: 40px 25px;
+  margin-top: 50px;
+}
+
+.this_class table, .this_class th, .this_class td {
+  border: 1px solid black;
+  border-collapse: collapse;
+width:16.66%;
+}
+
+.this_class table {
+width:100%
+}
+
+
+.this_class th, .this_class td {
+padding-left: 10px;
+}
+
+    .this_class table { page-break-inside:avoid;}
+    .this_class tr    { page-break-inside:avoid; page-break-after:auto }
+    .this_class thead { display:table-header-group }
+    .this_class tfoot { display:table-footer-group }
